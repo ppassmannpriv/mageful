@@ -1,0 +1,22 @@
+{
+  "name": "Mageful",
+  "description": "another Magento 1.9.x REST client",
+  "keywords": ["REST", "REST-Client", "Magento", "mage", "php"],
+  "license": "dude just use it",
+  "authors": [
+    {
+      "name": "Pieter Passmann",
+      "email": "pieter.passmann@gmail.com",
+      "role": "dev"
+    }
+  ],
+  "require": {
+    "php": ">= 5.6",
+    "guzzlehttp/guzzle": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mageful\\": "app/"
+    }
+  }
+}
