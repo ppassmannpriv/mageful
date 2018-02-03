@@ -19,6 +19,10 @@ if($environment !== 'PRODUCTION')
 
 $whoops->register();
 
+var_dump(get_env('DATASOURCEURL'));
+var_dump(get_env('DATASOURCEUSER'));
+var_dump(get_env('DATASOURCEKEY'));
+/*
 $injector = include('Dependencies.php');
 $request = new \Http\HttpRequest($_GET, $_POST, $_COOKIE, $_FILES, $_SERVER);
 $response = new \Http\HttpResponse;
@@ -54,3 +58,4 @@ switch ($routeInfo[0]) {
         break;
 }
 echo $response->getContent();
+*/
